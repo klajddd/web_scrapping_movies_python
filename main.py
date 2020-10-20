@@ -2,6 +2,9 @@ import random
 import requests
 from bs4 import BeautifulSoup
 
+# THIS PROGRAM USES BEAUTIFUL SOUP TO SCRAP THE HIGHEST RATED MOVIES ON IMDB AND SUGGESTS MOVIES TO WATCH.
+
+# URL of IBDM's top 250 rated movies
 url = 'https://www.imdb.com/chart/top/?ref_=nv_mv_250'
 
 
